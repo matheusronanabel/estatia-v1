@@ -21,6 +21,7 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->foreignId('role_id')->constrained('user_roles','id');
+            $table->text('avatar');
             $table->string('full_name');
             $table->string('email')->unique();
             $table->string('phone_number');

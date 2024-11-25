@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('property_inquiries', function (Blueprint $table) {
             $table->id();
             $table->foreignId('property_id')->constrained('properties','id');
-            $table->foreignId('user_id')->constrained('users','id');
+            $table->foreignUuid('user_id')->constrained('users','id');
             $table->text('message');
             $table->timestamps();
             $table->softDeletes();

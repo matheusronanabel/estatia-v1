@@ -3,7 +3,7 @@
         <div class="max-w-full md:max-w-2xl mx-auto w-full flex items-center">
             <div class="w-full">
                 <a href="{{ route('guest.home.index') }}">
-                    <x-logo.estatia fill="#252525" />
+                    <x-logo.estatia fillColor="#252525" class="h-6" />
                 </a>
             </div>
             <div class="w-full flex justify-end">
@@ -56,7 +56,7 @@
     <div class="py-4 w-full bg-white">
         <div class="max-w-4xl xl:max-w-7xl mx-auto flex justify-between items-center">
             <div>
-                <x-logo.estatia class="h-8" fill="#252525" />
+                <x-logo.estatia class="h-8" fillColor="#252525" />
             </div>
             <div class="flex space-x-8">
                 <div class="flex space-x-8">

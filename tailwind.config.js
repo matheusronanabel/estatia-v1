@@ -15,6 +15,7 @@ export default {
                 "estatia" : {
                     "black" : "#252525",
                     "dark-blue" : "#184062",
+                    "dark-blue-200" : "#4C729E",
                     "darker-blue" : "#0E2539",
                     "primary-blue" : "#2C74B3",
                     "secondary-blue" : "#205295",
@@ -25,6 +26,7 @@ export default {
                     "light-grey-200" : "#E6E6E6",
                     "light-grey-300" : "#737373",
                     "grey" : "#595959",
+                    "grey-200" : "#B3B3B3",
                 }
             }
         },

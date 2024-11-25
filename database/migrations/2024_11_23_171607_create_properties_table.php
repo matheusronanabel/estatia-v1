@@ -24,8 +24,8 @@ return new class extends Migration
             $table->longText('images');
             $table->string('title');
             $table->longText('description');
-            $table->integer('number_of_bedroom');
-            $table->integer('number_of_bathroom');
+            $table->integer('number_of_bedroom')->nullable();
+            $table->integer('number_of_bathroom')->nullable();
             $table->decimal('price_idr',16,2);
             $table->decimal('price_usd',16,2)->nullable();
             $table->decimal('building_size',8,2)->nullable();
