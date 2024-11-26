@@ -27,6 +27,7 @@ export default {
                     "light-grey-300" : "#737373",
                     "grey" : "#595959",
                     "grey-200" : "#B3B3B3",
+                    "menu-link" : "#32475C"
                 }
             }
         },
